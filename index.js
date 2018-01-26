@@ -13,7 +13,7 @@ app.on('window-all-closed', function() {
 
 app.on('ready', function() {
   mainWindow = new BrowserWindow({width: 1400, height: 1000});
-  mainWindow.loadURL('https://kibe.la/ja');
+  mainWindow.loadURL('https://kibe.la');
 
   mainWindow.on('closed', function() {
     mainWindow = null;
